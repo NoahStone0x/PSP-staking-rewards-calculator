@@ -1,0 +1,111 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: 0;
+  color: #fff;
+  height: 100%;
+  /* background: #1b2160; */
+  background-image: radial-gradient(
+    circle 610px at 50.2% 51.6%,
+    rgba(5, 8, 114, 1) 10%,
+    rgba(7, 3, 53, 1) 97.5%
+  );
+  letter-spacing: 0.02rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  margin: 50px 0;
+  font-size: 0.75rem;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  font-size: 0.875rem;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 15px;
+}
+
+.inputs input {
+  display: block;
+  height: 26px;
+  min-width: 266px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #005ede;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.inputs select {
+  display: block;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #005ede;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.output {
+  background: #e9ecef;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #005ede;
+  margin: auto;
+  width: 210px;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.output p {
+  display: flex;
+  justify-content: center;
+}
+
+.output p > img {
+  margin-left: 5px;
+}
+
+.output span {
+  margin: 11px 0;
+}
